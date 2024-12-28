@@ -1,18 +1,17 @@
 <template>
     <div class="wrapper">
-      <div class="container">
+      <div class="container"> 
         <div class="asidebar">
           <AsideBar />
         </div>
-        <div class="main-body bg-gray-100 transition-all duration-300"
+        <div class="main-body transition-all duration-300 "
         :class="{ '': !isSidebarExpanded, 'ml-100': isSidebarExpanded }">
           
-            <div class="header-bar">
+            <div class="header-bar ">
               <HeaderBar></HeaderBar>
             </div>
           
-          <div class="body "
-          
+          <div class="body p-5 "
 		>
             <router-view />
           </div>
@@ -55,10 +54,12 @@ import HeaderBar from '@/components/HeaderBar.vue';
 .body {
   overflow: auto;
   width: auto;
+  height: 1000px;
 }
 .main-body{
   width: 100%;
   max-width: 100%;
+  background-color: whitesmoke;
 }
 </style>
 

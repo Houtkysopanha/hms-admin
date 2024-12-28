@@ -1,6 +1,8 @@
 :root{
     --primary-color: whitesmoke;
     --secondary-color: #ADD8E6;
+    --third-color: #07404b;
+    --fourth-color: #9ed3ce;
     --myfont-weight: bold;
     --myfont-size: 18px;
 }
