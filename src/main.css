@@ -1,0 +1,15 @@
+:root{
+    --primary-color: whitesmoke;
+    --secondary-color: #ADD8E6;
+    --myfont-weight: bold;
+    --myfont-size: 18px;
+}
+
+
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+}
